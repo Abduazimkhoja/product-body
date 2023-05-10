@@ -1,0 +1,35 @@
+.product {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.product__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.product__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+}
+.product__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+.product__category {
+  display: flex;
+  height: 168px;
+  position: relative;
+  border-radius: 24px;
+}
+.product__image {
+  max-width: 635px;
+}
+.product__subtitle {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
